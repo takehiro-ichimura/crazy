@@ -1,0 +1,32 @@
+{% extends 'museum/base.html' %}
+
+{% block content %}
+    <div style="text-align: center;">
+        <div>
+            <br />
+            あなたは
+            <font style="background:#000000; color:#ffffff; font-weight: bold;">
+                0000065
+            </font>
+            人目の訪問者です。
+            <br />
+            <br />
+        </div>
+        <div class="thumbnail">
+            {% load static %}
+            <img src="{% static 'shono.jpg' %}">
+        </div>
+        <div>
+            <br />
+            出口
+            <br />
+            <br />
+            <br />
+            メールはこちらから→
+            <br />
+            <br />
+            <br />
+            活動予定
+        </div>
+    </div>
+{% endblock %}
